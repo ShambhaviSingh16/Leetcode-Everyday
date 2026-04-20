@@ -1,3 +1,4 @@
+1. 
 class Solution {
 
     public int maxDistance(int[] colors) {
@@ -14,3 +15,25 @@ class Solution {
         return res;
     }
 }
+
+* Time complexity: O(n2)  and  Space complexity: O(1).
+
+
+
+
+2. 
+class Solution {
+
+    public int maxDistance(int[] colors) {
+        int n = colors.length;
+        int res = 0; // the maximum distance between two houses of different colors
+        for(int i = 0; i < colors.length-1; i++) {
+    if(colors[0] != colors[colors.length-1-i] || colors[colors.length-1] != colors[i]) {
+        return colors.length-i-1;
+    }
+}
+        return res;
+    }
+}
+
+Time complexity: O(n).
