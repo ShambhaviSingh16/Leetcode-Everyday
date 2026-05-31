@@ -1,6 +1,6 @@
 class Solution {
     public List<String> letterCombinations(String digits) {
-        List<String> res = new ArrayList<>();
+        List<String> res = new ArrayList<>(); 
         
         if (digits == null || digits.length() == 0) {
             return res;
