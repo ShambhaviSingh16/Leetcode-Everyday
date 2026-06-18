@@ -7,7 +7,7 @@ class Solution {
             switch (c) {
                 case '*':
                     if (len > 0) {
-                        len--;
+                        len--; 
                     }
                     break;
                 case '#':
