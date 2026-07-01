@@ -3,7 +3,7 @@ class Solution {
         List<String> res = new ArrayList<>(); 
         
         if (digits == null || digits.length() == 0) {
-            return res;
+            return res; 
         }
         
         Map<Character, String> digitToLetters = new HashMap<>();
